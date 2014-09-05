@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Box UX Mock</title>
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>
+
+<!-- Start Post Box Template -->
+<div style="display:none;" id="post-box-tmpl">
+
+    <h1>Post Box</h1>
+    <h2>{{text}}</h2>
+    <div class="textarea-wrapper">
+        <textarea></textarea>
+        <button>Submit</button>
+    </div>
+
+</div>
+<!-- End Post Box Template -->
+
+<div id="main">
+    <!-- This is where the PostBoxView from main.js is getting rendered in to -->
+</div>
+
+</body>
+</html>
