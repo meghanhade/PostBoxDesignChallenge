@@ -14,7 +14,9 @@ $(function () {
 
             // Whenever the user clicks on the submit button we will set the model's
             // `text` attribute to whatever the user entered into the `textarea` element.
-            'click .textarea-wrapper button': function () { this.model.set('text', this.$('textarea').val()); }
+            // 'click .textarea-wrapper button': function () { this.model.set('text', this.$('textarea').val()); },
+            'click .textarea-wrapper button': function () { this.$('.textarea-wrapper button').addClass('success'); }
+            
         },
 
         initialize: function () {
